@@ -1,5 +1,6 @@
 """
 .. include:: README.md
+.. include:: COPYRIGHT.md
 """
 
 from . import entities
