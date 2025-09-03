@@ -8,7 +8,7 @@ version = "0.1.0"
 
 [tasks]
 # serve-docs = "python -m pdoc -d google --mermaid ../maloja !maloja.test_nebula !pydantic"
-serve-docs = "python -m pdoc -d google --mermaid ../maloja !maloja.test_nebula"
+serve-docs = "python -m pdoc -d google --mermaid -n  ../maloja !maloja.test_nebula"
 export-docs = "python -m pdoc -d google --mermaid -o docs/ ../maloja !maloja.test_nebula"
 
 [dependencies]
